@@ -13,4 +13,14 @@ for (info in persons){
 }
 
 
+console.log(Object.keys(persons));
+
+
+for(key of Object.keys(persons)){
+
+    console.log(key)
+}
+
+
+
 
