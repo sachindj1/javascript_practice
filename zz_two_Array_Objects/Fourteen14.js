@@ -22,5 +22,25 @@ for(key of Object.keys(persons)){
 }
 
 
+//----------------------------------------------------
+
+// computed properties
+
+const key1 = "value1";
+const key2 = "value2";
+
+const value1 = "myvalue1"
+const value2 = "myvalue2"
+
+let obj={
+
+    [key1] : value1,
+    [key2] : value2
+}
+
+console.log(obj);
+
+
+
 
 

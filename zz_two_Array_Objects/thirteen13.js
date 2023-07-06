@@ -6,7 +6,7 @@
 
 let names = {name : "sachin", "person hobbies" : ["reading ", "music"]}
 
-// names.person hobbies   (not possible)
+   // names.person hobbies   (not possible)
 
 names["person hobbies"];
 console.log(names["person hobbies"])
@@ -31,11 +31,11 @@ for(let key in person){
     // console.log(key);
 
     console.log(person[key])  // here we are accessing values of that particular key
-                               // we have alternative using backticks
+                                  // we have alternative using backticks
 
       console.log(`${key} : ${person[key]}`)                      
 
-}
+        }
 
 
 
