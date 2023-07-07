@@ -37,3 +37,22 @@ let students = [
             console.log(student.name);
             console.log(student.city);
         }
+
+
+        //  nested destructuring 
+
+
+        let newArray1 = [{name : "sachin"},{name : "rahul"},{name : "ganesh",age:33}];
+
+        console.log("this is new array1", newArray1);
+
+        // want name from object one and age from object three
+
+        // let [{name}, ,{age : AGE}] = newArray1;
+        // console.log(AGE);
+
+        // we can change variable name also
+
+        let [{name}, ,{age : newAGE}] = newArray1;
+
+      console.log(newAGE);
