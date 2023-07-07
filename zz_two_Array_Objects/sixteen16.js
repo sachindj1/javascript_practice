@@ -23,6 +23,6 @@ console.log(restProps);
 
 
 
-let obj3 = {name : "", age : null , address: undefined}
+let obj3 = {name : "", age : null ,address: undefined}
 
 console.log(obj3);

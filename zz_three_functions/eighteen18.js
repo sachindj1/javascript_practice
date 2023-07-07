@@ -3,7 +3,7 @@
 // 1----> this is also reference data type
 // we can define functions in two ways
 
-// A--->   function myFunction (){};
+// A--->   function myFunction (){};          , it is called as functoion declaration
 // B--->   const myFunction = function (){}   , it is also called as function expression
 
 // functions are like slaves whenever we call them they will perform there work
