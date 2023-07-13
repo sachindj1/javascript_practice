@@ -62,7 +62,8 @@ console.log(user.firstName);
 let newNumbers = [1,2,3,4,5];
 
 
-let newNUM = newNumbers.forEach((number)=>{
+let newNUM = newNumbers.forEach((number)=>{       // using forEach the returned output from function is undefined
+                                                  // but in map function we can store it in array 
     return number*2 ;
 })
 

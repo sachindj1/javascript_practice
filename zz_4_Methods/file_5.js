@@ -1,4 +1,4 @@
-// find() method
+// find()   method  
 
 
 let names =["snake", "dog", "tiger","lion", "cat"];
