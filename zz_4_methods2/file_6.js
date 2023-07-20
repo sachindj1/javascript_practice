@@ -38,9 +38,18 @@ console.log(obj2.key1); // key1 is not inside obj2
  console.log(obj4.key1);
 
 
+let myMethods = {
+    about: function(){
+         console.log("hello")
+    },
 
+    is182 : ()=>{
+        console.log("age")
+    }
+}
 
+obj6 = Object.create(myMethods);
 
-
+console.log(obj6);
 
 
