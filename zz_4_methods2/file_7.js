@@ -15,8 +15,9 @@ console.log(hello.name); // it gives the name of function
 hello.firstName = "sachin"; // we can add properties (const) in function like we do in case of objects
 
 console.log(hello.firstName);
-console.log(hello);
+console.log(hello.prototype);
 
+// only function provides prototype property
 
 
 
