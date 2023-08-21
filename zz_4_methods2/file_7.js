@@ -19,5 +19,8 @@ console.log(hello.prototype);
 
 // only function provides prototype property
 
+// prototype is the free space inside function 
+// where we can add anything
+
 
 
